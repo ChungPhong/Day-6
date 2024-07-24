@@ -168,18 +168,22 @@
   border-radius: 5px;
   object-fit: cover;
 }
+
 /* CENTER  */
 .main-center .story-list {
   display: flex;
   gap: 0 10px;
 }
+
 .main-center .story-item {
   flex: 1;
   position: relative;
 }
+
 .main-center .story-image {
   overflow: hidden;
 }
+
 .main-center .story-image img {
   width: 120px;
   height: 180px;
@@ -188,9 +192,11 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
 .main-center .story-image img:hover {
   transform: scale(1.2);
 }
+
 .main-center .story-item .span-20.active::before {
   content: "+";
   position: absolute;
@@ -203,13 +209,14 @@
   left: 23px;
   text-align: center;
 }
+
 .main-center .story-item .span-20 {
   position: absolute;
   bottom: 5px;
   color: #fff;
-
   white-space: nowrap;
-  left: 16px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .img-sub {
   width: 40px;
