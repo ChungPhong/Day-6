@@ -455,11 +455,12 @@
 .main-right .row-image {
   margin-top: 20px;
   overflow: hidden;
+  height: 187px;
+  border-radius: 5px;
 }
 .main-right .row-image img {
   width: 100%;
-  height: auto;
-  border-radius: 5px;
+  height: 100%;
   object-fit: cover;
   transition: transform 0.9s ease;
   cursor: pointer;
